@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 2 - Single Card</title>
+
+    <style>
+      img {
+        width: 100%;
+        display: block;
+        mix-blend-mode: multiply;
+      }
+
+      h3 {
+        font-family: "Courier New", Courier, monospace;
+        font-variant: small-caps;
+        letter-spacing: 7px;
+        color: hwb(0 97% 1%);
+        background-color: rgb(41, 155, 175);
+        padding: 1rem;
+        text-align: center;
+      }
+
+      body {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 22px;
+        line-height: 1.5;
+      }
+      main {
+        max-width: 33ch;
+        margin: auto;
+      }
+
+      article {
+        background-color: blue;
+        border-radius: 30px;
+      }
+
+      .cta {
+        max-width: 38ch;
+        border: 1px solid black;
+        border-radius: 1 rem;
+        padding: 1rem;
+        color: rgb(8, 8, 8);
+        background-color: antiquewhite;
+      }
+
+      a:visited {
+        margin: auto;
+        display: block;
+        max-width: 38ch;
+        border-radius: 1 rem;
+        text-decoration: none;
+        color: antiquewhite;
+        box-shadow: 4px;
+      }
+
+      a:hover {
+        background-color: antiquewhite;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <a href="https://picsum.photos/">
+      <main>
+        <article class="cta">
+          <img
+            src="https://picsum.photos/id/237/350/350"
+            alt="A picture of a black dog"
+            width="350"
+            height="350"
+          />
+
+          <h3>Best puppy video ever!</h3>
+          <p>
+            These cute pets will put you in a good mood for the whole day!
+            <strong>Click the link</strong> to see cute cats and funny dogs in
+            this 5 minute compilation video.
+          </p>
+          <p><em>Enjoy watching!</em></p>
+        </article>
+      </main>
+    </a>
+  </body>
+</html>
